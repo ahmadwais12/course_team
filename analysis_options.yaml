@@ -1,0 +1,8 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    # Generated localization output (ARB keys + AppLocalizations). The key
+    # constants intentionally use snake_case names, which trip
+    # `constant_identifier_names` and would otherwise be reported as noise.
+    - lib/l10n/**
